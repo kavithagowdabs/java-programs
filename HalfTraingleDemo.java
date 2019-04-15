@@ -1,0 +1,32 @@
+package nestedfor;
+
+import java.util.Scanner;
+
+class GenerateStar2   //custom classes
+{
+	int i,n;
+	Scanner sc=new Scanner(System.in);
+	void m()
+	{
+		System.out.println("enter the range");
+		n=sc.nextInt();
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+	}
+
+}
+public class HalfTraingleDemo {
+
+	public static void main(String[] args)
+	{
+		GenerateStar2 ob=new GenerateStar2();
+		ob.m();
+	}
+
+}
