@@ -31,7 +31,7 @@ class vowels1
 		}
 		System.out.println("the no. of vowels are "+vowels);
 		System.out.println("the no. of consonants are "+consonants);
-		System.out.println("the no. of spaces are "+digit);
+		System.out.println("the no. of digits are "+digit);
 		
 	}
 }
